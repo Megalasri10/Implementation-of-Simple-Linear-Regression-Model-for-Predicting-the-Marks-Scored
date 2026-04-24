@@ -8,14 +8,54 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+
+## **Algorithm: Implementation of Simple Linear Regression Model for Predicting the Marks Scored**
+
+**Step 1:** Start the program.
+
+**Step 2:** Define the independent variable **X** (Hours Studied) and dependent variable **Y** (Marks Scored).
+
+**Step 3:** Calculate the mean of X-values and mean of Y-values.
+
+**Step 4:** Compute the slope **m** of the best fit line using the formula:
+
+[
+m = \frac{\sum (X-\bar{X})(Y-\bar{Y})}{\sum (X-\bar{X})^2}
+]
+
+**Step 5:** Compute the y-intercept **b** using the formula:
+
+[
+b = \bar{Y} - m\bar{X}
+]
+
+**Step 6:** Form the linear regression equation:
+
+[
+Y = mX + b
+]
+
+**Step 7:** Split the dataset into training and testing sets.
+
+**Step 8:** Train the Simple Linear Regression model using training data.
+
+**Step 9:** Predict marks for test data using the regression equation.
+
+**Step 10:** Evaluate the model using performance metrics like Mean Squared Error (MSE) and R² Score.
+
+**Step 11:** Plot the scatterplot of actual data and draw the regression line.
+
+**Step 12:** Predict marks for a new input value (hours studied).
+
+**Step 13:** Stop the program.
+
 
 ## Program:
 ```
 /*
+Developed by: Megala M S
+RegisterNumber:  212225040230
+
 # Step 1: Import Libraries
 import numpy as np
 import pandas as pd
@@ -76,13 +116,13 @@ hours = 7.5
 predicted_marks = model.predict([[hours]])
 print("\nPredicted Marks for", hours, "hours =", predicted_marks[0])
 
-Developed by: Megala M S
-RegisterNumber:  212225040230
 */
 ```
 
 ## Output:
+
 <img width="383" height="271" alt="Screenshot 2026-04-24 141147" src="https://github.com/user-attachments/assets/f4aea7e3-73e9-416b-9342-3f1434bc0623" />
+
 <img width="1054" height="822" alt="Screenshot 2026-04-24 141134" src="https://github.com/user-attachments/assets/f14bc3c9-9616-4b1b-993d-6e7fdb8b9cab" />
 
 
