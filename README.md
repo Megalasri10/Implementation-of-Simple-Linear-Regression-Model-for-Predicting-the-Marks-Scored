@@ -17,36 +17,26 @@ To write a program to predict the marks scored by a student using the simple lin
 **Step 3:** Calculate the mean of X-values and mean of Y-values.
 
 **Step 4:** Compute the slope **m** of the best fit line using the formula:
+<img width="296" height="133" alt="image" src="https://github.com/user-attachments/assets/79ddc669-e7ba-4c86-9499-cd454e96f0f3" />
 
-[
-m = \frac{\sum (X-\bar{X})(Y-\bar{Y})}{\sum (X-\bar{X})^2}
-]
 
 **Step 5:** Compute the y-intercept **b** using the formula:
 
-[
-b = \bar{Y} - m\bar{X}
-]
+<img width="208" height="51" alt="image" src="https://github.com/user-attachments/assets/b3c882e2-f5b7-47c1-8a77-44d5f424b9a1" />
 
-**Step 6:** Form the linear regression equation:
+**Step 6:** Split the dataset into training and testing sets.
 
-[
-Y = mX + b
-]
+**Step 7:** Train the Simple Linear Regression model using training data.
 
-**Step 7:** Split the dataset into training and testing sets.
+**Step 8:** Predict marks for test data using the regression equation.
 
-**Step 8:** Train the Simple Linear Regression model using training data.
+**Step 9:** Evaluate the model using performance metrics like Mean Squared Error (MSE) and R² Score.
 
-**Step 9:** Predict marks for test data using the regression equation.
+**Step 10:** Plot the scatterplot of actual data and draw the regression line.
 
-**Step 10:** Evaluate the model using performance metrics like Mean Squared Error (MSE) and R² Score.
+**Step 11:** Predict marks for a new input value (hours studied).
 
-**Step 11:** Plot the scatterplot of actual data and draw the regression line.
-
-**Step 12:** Predict marks for a new input value (hours studied).
-
-**Step 13:** Stop the program.
+**Step 12:** Stop the program.
 
 
 ## Program:
